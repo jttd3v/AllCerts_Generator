@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Review Certificate</title></head>
+<body>
+  <h1>Review Certificate</h1>
+  <p><strong>Name:</strong> {{ data['name'] }}</p>
+  <p><strong>Rank:</strong> {{ data['rank'] }}</p>
+  <p><strong>Course:</strong> {{ data['course'] }}</p>
+  <p><strong>Dates:</strong> {{ data['start_date'] }} to {{ data['end_date'] }}</p>
+
+  <form method="POST">
+    <button type="submit">Save as PDF & Submit</button>
+  </form>
+</body>
+</html>
